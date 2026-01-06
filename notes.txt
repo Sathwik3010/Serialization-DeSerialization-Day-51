@@ -10,3 +10,5 @@ The process of reading state of an Object from a file is Called Deserialization
 By using FileInputStream and ObjectInputStream class we can achieve Deserialization.
 
 ObjectInputStream ois = ObjectInputStream (new FileInputStream("file path"));
+
+here transient for the variables means during deserializtion of object we can hide them as we cannot see those variables

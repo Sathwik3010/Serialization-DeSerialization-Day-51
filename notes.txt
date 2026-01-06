@@ -1,0 +1,12 @@
+the process of saving or writing state of an object to a file is called serialization.
+
+in other words it is a process of converitng an object from java supported version to file supported version ir network supported version.
+Object OutputStream oos = new ObjectOutputStream (new FileOutputStream("file path"));
+
+by using FileOutputStream and ObjectOutputStream classes we can achieve Serialization.
+
+The process of reading state of an Object from a file is Called Deserialization
+
+By using FileInputStream and ObjectInputStream class we can achieve Deserialization.
+
+ObjectInputStream ois = ObjectInputStream (new FileInputStream("file path"));
